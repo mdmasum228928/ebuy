@@ -1,0 +1,47 @@
+/* ========================Ext sm Device ============================ */
+@media(max-width:575.98px){
+  #main-top{
+    position: relative;
+  }
+  #main-top::after{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 1px;
+    width: 100%;
+    background: #fff;
+  }
+  .top-left {
+    text-align: center;
+}
+.top-right {
+  text-align: center;
+}
+.top-left::before {
+  left: 49%;
+  height: 46px;
+}
+.top-left::after {
+  left: 33%;
+  height: 46px;
+}
+.top-right::before {
+  right: 64%;
+  height: 47px;
+}
+.top-right::after {
+    left: 36%;
+    height: 47px;
+}
+/* ============== menu ================ */
+.navbar-light .navbar-toggler{
+  color: #DE4644;
+  border: 1px solid #DE4644;
+}
+.navbar-nav{
+  text-align: center;
+}
+
+}
